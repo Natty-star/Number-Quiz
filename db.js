@@ -1,0 +1,6 @@
+const questions = ["1,1,2,3,5",'1,4,9,16,25',"2,3,5,7,11","1,2,4,8,16"]
+    //{fibo:"1,1,2,3,5",square:'1,4,9,16,25',prime:"2,3,5,7,11",power:"1,2,4,8,16"};
+
+const answers = [8,36,13,32]
+
+module.exports = {questions,answers}
