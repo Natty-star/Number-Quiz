@@ -5,7 +5,10 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
-    body 
-    h2 The Number QUiz 
-    p Yur current score is #{score}
-    p you have complited the Number Quiz whith a score #{score} out of 5;
+    body
+    .container 
+      h2 The Number QUiz 
+      p Yur current score is #{score}
+      p you have complited the Number Quiz whith a score #{score} out of 5;
+      button(type='button')
+          a(href='/') Try Again 
